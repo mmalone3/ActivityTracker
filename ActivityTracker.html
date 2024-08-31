@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <input type="file" id="file-input" accept=".json">
+        <h1 id="activity-title">No Activity</h1>
+        <div id="activities">
+            <div id="work" class="activity">Work</div>
+            <div id="sleep" class="activity">Sleep</div>
+            <div id="study" class="activity">Study</div>
+            <div id="anything-else" class="activity">Anything Else</div>
+        </div>
+        <div id="activity-history"></div>
+        <div id="timer">00:00:00</div>
+        <button id="toggle-button">Toggle Tracking</button>
+        <button id="stop-button">Stop Tracking</button>
+        <button id="save-button">Save Times</button>
+        <button id="clear-button">Clear Times</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
